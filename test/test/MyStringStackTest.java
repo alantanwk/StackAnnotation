@@ -33,8 +33,11 @@ public class MyStringStackTest extends TestCase {
 	public void testPush() {
 		String o1 = null;  
 		MyStringStack stack = new MyStringStack();
+		//no the initial build fail
+		//so i'm trying to remove this portion to make it success first
 		assertTrue (stack.isEmpty());
 		//updated
+		//already updated here
 	}
 
 	@Test
